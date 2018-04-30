@@ -1,0 +1,30 @@
+{
+    "name": "jungle",
+    "displayName": "Jungle",
+    "description": "Minimalistic VS Code theme based on Oceanic Next",
+    "licence": "MIT",
+    "version": "1.0.0",
+    "publisher": "lukasjuhas",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lukasjuhas/jungle.git"
+    },
+    "bugs": {
+        "url": "https://github.com/lukasjuhas/jungle/issues"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jungle",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Jungle-color-theme.json"
+            }
+        ]
+    }
+}
